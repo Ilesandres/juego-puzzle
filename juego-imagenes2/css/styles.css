@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+header {
+    display: flex;
+    background-color: rgb(228, 235, 241);
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box; 
+    justify-content: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1; 
+}
+
+#text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column, 3;
+}
+
+#text img {
+    width: 100px;
+    height: 100px; 
+    object-fit: cover; 
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#text img:hover {
+    transform: scale(1.5); 
+    z-index: 1; 
+}
