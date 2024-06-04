@@ -17,4 +17,4 @@ Este es un proyecto de un juego de puzzle numérico 3x3 desarrollado en HTML, CS
 
 1. Clona el repositorio a tu máquina local:
    ```bash
-   git clone https://github.com/Ilesandres/puzzle-numeros-3x3.git
+   git clone https://github.com/Ilesandres/juego-puzzle.git
