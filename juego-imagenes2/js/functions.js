@@ -43,7 +43,7 @@ function imgCreate() {
   for (let i = 0; i < filas; i++) {
     for (let j = 0; j < columnas; j++) {
       text.innerHTML +=
-        '<img src="../img/buscame.jpg" onclick="img(' + i + "," +j + "," + matriz[i][j] +   ')" alt="">';
+        '<img src="./img/buscame.jpg" onclick="img(' + i + "," +j + "," + matriz[i][j] +   ')" alt="">';
     }
   }
 }
@@ -124,10 +124,10 @@ function compareImg1(val, fil, col) {
         for (let j = 0; j < columnas; j++) {
           if (mAux[i][j] !== 0) {
             text.innerHTML +=
-              '<img src="../img/img' + mAux[i][j] + '.jpg" alt="">';
+              '<img src="./img/img' + mAux[i][j] + '.jpg" alt="">';
           } else {
             text.innerHTML +=
-              '<img src="../img/buscame.jpg" onclick="img(' +
+              '<img src="./img/buscame.jpg" onclick="img(' +
               i +
               "," +
               j +
@@ -171,12 +171,12 @@ function loadImg(i, j) {
     for (let c = 0; c < columnas; c++) {
       if (r === i && c === j) {
         text.innerHTML +=
-          '<img src="../img/img' + matriz[i][j] + '.jpg" alt="">';
+          '<img src="./img/img' + matriz[i][j] + '.jpg" alt="">';
       } else if (mAux[r][c] !== 0) {
-        text.innerHTML += '<img src="../img/img' + mAux[r][c] + '.jpg" alt="">';
+        text.innerHTML += '<img src="./img/img' + mAux[r][c] + '.jpg" alt="">';
       } else {
         text.innerHTML +=
-          '<img src="../img/buscame.jpg" onclick="img(' +
+          '<img src="./img/buscame.jpg" onclick="img(' +
           r +
           "," +
           c +
