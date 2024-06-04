@@ -13,10 +13,14 @@ Este es un proyecto de un juego de puzzle grafico dinamico 3x3 desarrollado en H
 - [🤝 Contribuciones](#contribuciones)
 - [📝 Licencia](#licencia)
 - 
-  [Ilesandres](https://github.com/Ilesandres)
+
 
 ## 📦 Instalación
 
 1. Clona el repositorio a tu máquina local:
    ```bash
    git clone https://github.com/Ilesandres/juego-puzzle.git
+
+##📄 Licencia
+
+  [Ilesandres](https://github.com/Ilesandres)
