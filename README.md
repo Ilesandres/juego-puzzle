@@ -12,6 +12,8 @@ Este es un proyecto de un juego de puzzle grafico dinamico 3x3 desarrollado en H
 - [✨ Características](#características)
 - [🤝 Contribuciones](#contribuciones)
 - [📝 Licencia](#licencia)
+- 
+ `"https://github.com/Ilesandres/juego-puzzle.git"`, `[Tu Nombre](https://github.com/Ilesandres)`, `screenshot.png` con la URL de tu repositorio,
 
 ## 📦 Instalación
 
